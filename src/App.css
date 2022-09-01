@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    /* background: pink; */
+}
+
+.wrapper {
+    width: 100%;
+    height: 250px;
+    background: rgb(40, 39, 41);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapper:hover {
+    cursor: pointer;
+    background: rgb(51, 49, 52);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.detail__date {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* PlanetDetail */
+.detail__more {
+    width: 100%;
+    height: 150px;
+    /* background: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    background: rgb(63, 61, 65);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(183, 156, 50);
+}
+/* PlanetNameFilms */
+.detail__name__films {
+    flex: 1;
+    font-size: 20px;
+    margin-left: 10px;
+    line-break: anywhere;
+}
+
+/* PlanetClimate */
+.detail__climate {
+    height: 43%;
+    display: flex;
+    /* background: rebeccapurple; */
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.date {
+    color: rgb(183, 156, 50);
+}
+
+.name{
+    color: white;
+}
+
+.climate {
+    color: rgb(98, 90, 90);
+}
+
+.films {
+    color: rgb(128 127 127);
+}
+
+.state__mang {
+    margin: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
